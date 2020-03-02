@@ -12,12 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_j8110.mk \
-                     $(LOCAL_DIR)/aosp_j9110.mk
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/hentai_griffin_RoW.mk \
+    $(LOCAL_DIR)/hentai_griffin_DSDS.mk
 
 COMMON_LUNCH_CHOICES += \
-    aosp_j8110-eng \
-    aosp_j8110-userdebug \
-    aosp_j9110-eng \
-    aosp_j9110-userdebug
-
+    hentai_griffin_RoW-eng \
+    hentai_griffin_RoW-userdebug \
+    hentai_griffin_RoW-user \
+    hentai_griffin_DSDS-eng \
+    hentai_griffin_DSDS-userdebug \
+    hentai_griffin_DSDS-user \
