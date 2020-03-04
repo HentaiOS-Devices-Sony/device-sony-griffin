@@ -14,8 +14,10 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/hentai_griffin_RoW.mk \
-    $(LOCAL_DIR)/hentai_griffin_DSDS.mk
-
+    $(LOCAL_DIR)/hentai_griffin_DSDS.mk \
+    $(LOCAL_DIR)/hentai_griffin_RoW_Go.mk \
+    $(LOCAL_DIR)/hentai_griffin_DSDS_Go.mk \
+    
 COMMON_LUNCH_CHOICES += \
     hentai_griffin_RoW-eng \
     hentai_griffin_RoW-userdebug \
@@ -23,3 +25,9 @@ COMMON_LUNCH_CHOICES += \
     hentai_griffin_DSDS-eng \
     hentai_griffin_DSDS-userdebug \
     hentai_griffin_DSDS-user \
+    hentai_griffin_RoW_Go-eng \
+    hentai_griffin_RoW_Go-userdebug \
+    hentai_griffin_RoW_Go-user \
+    hentai_griffin_DSDS_Go-eng \
+    hentai_griffin_DSDS_Go-userdebug \
+    hentai_griffin_DSDS_Go-user \
